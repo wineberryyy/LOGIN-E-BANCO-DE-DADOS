@@ -4,16 +4,16 @@ USE PHP;
 
 DROP DATABASE PHP;
 
-CREATE TABLE usuario (
+CREATE TABLE users (
 codigo INT PRIMARY KEY AUTO_INCREMENT,
-login VARCHAR (10),
-senha VARCHAR(7)
+username VARCHAR (10),
+password VARCHAR(7)
 );
 
-INSERT INTO usuario (login, senha) VALUES 
+INSERT INTO users (username, password) VALUES 
 ('lana','123');
 
-INSERT INTO usuario (login, senha) VALUES 
+INSERT INTO users (username, password) VALUES 
 ('heloysa','123');
 
-SELECT * FROM USUARIO;
+SELECT * FROM users;
